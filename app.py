@@ -170,6 +170,7 @@ def main():
         data=clean_file,
         file_name=f"{stem}_retenu.xlsx",
         mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        type="primary",
     )
 
     st.divider()
